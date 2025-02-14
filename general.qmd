@@ -1,0 +1,74 @@
+---
+title: "Sample Annotation Best Practices"
+format: gfm
+---
+
+# Sample Annotation Best Practices 
+
+## Overview
+Accurate and consistent sample annotation is critical for maintaining data integrity and ensuring that collected samples can be effectively analyzed, stored, and referenced in future research. This document outlines best practices for annotating biological, geological, and water samples collected during research expeditions. These guidelines should be followed by all team members handling sample documentation.
+
+## General Principles
+- **Consistency**: Use standardized naming conventions and controlled vocabularies.
+- **Completeness**: Ensure all required metadata fields are filled.
+- **Traceability**: Link samples to their original collection events, geospatial coordinates, and any related data.
+- **Accuracy**: Cross-check annotations against raw observations and instrument data.
+
+## Sample Naming Conventions
+Each sample should receive a unique identifier based on the following format:
+
+[Expedition_Code]-[Dive/Station_Number]-[Sample_Type]-[Sequential_Number]
+``` 
+Example:
+WWR21_18Mar21_67-70_DR1324_PC41
+``` 
+where:
+```
+WWR21 = Expedition code (Weird and Wonderful 2021)
+18Mar21 = Date
+67-70 = Station number
+DR1324 = Dive number
+PC41 = Sample type and Number (Push Core 41)
+```
+
+## Required Metadata Fields
+Each sample entry must include the following metadata:
+
+### Core Metadata
+- **Sample ID**: Unique identifier
+- **Expedition Code**: Assigned mission code
+- **Dive/Station Number**: Collection event reference
+- **Sample Type**: Geological, biological, or water
+- **Date & Time (UTC)**: Timestamp of collection
+- **Geospatial Coordinates**: Latitude/Longitude in decimal degrees
+- **Depth (m)**: Collection depth
+
+### Additional Metadata
+- **Collector Name(s)**: Research personnel handling the sample
+- **Sample Description**: Brief description of material (e.g., "Basalt with Fe-Mn coating")
+- **Container ID**: Storage reference number
+- **Preservation Method**: Ethanol, RNAlater, frozen, etc.
+- **Associated Imagery/Video**: Reference to captured media
+- **Instrumentation Used**: Collection tool (e.g., ROV manipulator, CTD, grab sampler)
+
+## Digital Annotation Workflow
+To ensure data integrity, samples should be logged in the designated digital annotation system (e.g., Sealog, EMu, or LIMS). The workflow follows these steps:
+
+1. **Real-time Annotation**: Enter metadata at the time of collection.
+2. **Post-Dive Review**: Cross-check and refine sample entries.
+3. **Data Backup**: Store annotated data in primary and secondary repositories.
+4. **Final Verification**: Confirm metadata consistency before submission to databases.
+
+## Quality Control Checks
+- **Double-Check Coordinates & Depths**: Ensure GPS and depth readings are correct.
+- **Verify Sample Integrity**: Cross-reference annotations with physical sample condition.
+- **Audit Entries**: Periodically review sample records for discrepancies.
+
+## Data Export & Sharing
+Annotated sample data should be exported in standardized formats (CSV, JSON) for integration into institutional databases. Before public release, metadata should be reviewed for accuracy and compliance with data-sharing policies.
+
+For further assistance, contact the expedition data manager or refer to the full data management protocol.
+
+---
+
+Following these best practices ensures that sample annotation remains rigorous, reproducible, and valuable for long-term scientific research.
