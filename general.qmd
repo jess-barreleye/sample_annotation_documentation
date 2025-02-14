@@ -1,6 +1,5 @@
 ---
 title: "Sample Annotation Best Practices"
-format: gfm
 ---
 
 # Sample Annotation Best Practices 
